@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+header {
+    height: 100px;
+    background-color: rgb(184, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+    background-image: url("img/uno.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    min-height: 100vh;
+
+}
+
+main{
+    flex-grow: 1;
+    backdrop-filter: blur(10px);
+}
+
+footer{
+    height: 80px;
+    background-color: rgb(184, 27, 27);
+    padding: 10px;
+    bottom: 0;
+    position: sticky;  
+    margin-top: 470px;
+    
+    
+}
+
+.container{
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    margin: 100px auto;
+    width: 300px;
+    padding: 40px;
+    border-radius: 60px;
+    
+    
+
+}
+.icongoogle{
+    height: 60px;
+    width: 60px;
+    
+}
+
+.iconwhatsapp{
+    height: 40px;
+    width: 40px;
+}
+
+#inputUsuario{
+    border-radius: 4x;
+    height: 30px;
+    width: 300px;
+
+}
+#inputSenha{
+    border-radius: 4x;
+    height: 30px;
+    width: 300px;
+}
+
+#buttonEntrar{
+    width: 100px;
+    height: 50px;
+}
+
+#buttonEntrar:hover{
+    width: 100px;
+    height: 50px;
+    color: rgb(184, 27, 27);
+}
+
+.corpo {
+    background-color:rgb(184, 27, 27) ;
+    color: white;
+}

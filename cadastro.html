@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <br>
+        <img class="icongoogle" src="img/google.png" alt=""> 
+    </header>
+    <main>
+        <div class="container">
+            <h1>cadastro</h1>
+            <form>
+                <label for="">Nome</label>
+                <br>
+                <input type="text" placeholder="seu nome" id ="inputUsuario">
+                <br>
+                <label for="">Sobrenome</label>
+                <br>
+                <input type="text" placeholder="seu sobrenome" id ="inputSobrenome">
+                <br>
+                <label for="">Senha</label>
+                <br>
+                <input type="text" placeholder="sua senha" id ="inputSenha">
+                <br>
+                <button id="buttonEntrar" onclick="cadastrar()">Cadastrar</button>
+            </form>
+            <p>Voltar para tela de login<a href="index.html"> Clique aqui</a></p>
+        </div>
+    </main>
+    <footer>
+        <p>Entre em contato com o suporte  </p>
+        <img class="iconwhatsapp" src="img/whatsaap.png" alt="">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
